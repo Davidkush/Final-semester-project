@@ -1,0 +1,30 @@
+body{
+    margin: 0em;
+    padding: 0em;
+    font-weight: 150;
+}
+nav{
+background-color: aquamarine;
+margin-top: -1.2pc;
+max-height: fit-content;
+}
+nav a{
+font-size: 16px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-content: inline-block;
+margin-left: 24px;
+align-content: right;
+}
+#name{
+    font-size: 24px;
+    margin-top: 1.2pc;
+    
+}
+#home_nav{
+
+align-self: initial;
+}
+
+#nav{
+
+}

@@ -1,0 +1,8 @@
+Registration -> completed
+Login -> completed
+Homepage
+//Slidshow to show services of the bank
+registration issues
+sql database
+php verification
+password view;
