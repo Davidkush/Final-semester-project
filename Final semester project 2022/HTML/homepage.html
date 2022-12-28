@@ -4,24 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Javascript/Homepag.js"></script>
     <link rel="stylesheet" href="/CSS/homepage.css">
     <title>Document</title>
 </head>
 <body>
     <div id="home_nav">
+    
         <nav id="nav">
-            <p id="name">HAITI BANK INTERNATIONAL</p>
-                <a href="">Home</a>
-                <a href=" ">Report</a>
-                <a href=" ">Support</a>
-                <a href=" ">Services</a>
-                <a href=" ">Account</a>
-           
-        
+            <ul>
+                <li id="name">HAITI BANK INTERNATIONAL</li>
+
+                <div id="right_aligned">
+                    <a href="#" class="current">Home</a>
+                    <a href="#">Report</a>
+                    <a href="#">Support</a></li>
+                    <a href="#">Services</a></li>
+                    <a href="#">Account</a>
+
+                </div>
+              
+              </ul>
         </nav>
     </div>
-    <div>
-        <p>Haiti Bank international: Financial Health is our joyful day</p>
+    <div id="slider">
+        <ul id="slideWrap"> 
+            <li><img src="/resources/Asset financing.jpg" alt=""></li>
+            <h4 id="caption">Asset Financing</h4>
+            <li><img src="/resources/Compound intrest.jpg" alt=""></li>
+            <h4 id="caption">Compound Interest Saving</h4>
+            <li><img src="/resources/Loan service.jpg" alt=""></li>
+            <h4 id="caption">Loan Service</h4>
+            <li><img src="/resources/Stocks and share.jpg" alt=""></li>
+            <h4 id="caption">Stock and Share management</h4>
+            
+            <a id="prev" href="#">&#8810;</a>
+            <a id="next" href="#">&#8811;</a>
+        </ul>
     </div>
 </body>
 </html>
